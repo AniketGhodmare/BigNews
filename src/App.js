@@ -21,9 +21,9 @@ const App = () => {
   return (
     <div>
       <Router>
+        {/* <LoadingBar height={3} color='#f11946' progress={progress} /> */}
         <Topbar />
         <TopAd />
-        {/* <LoadingBar height={3} color='#f11946' progress={progress} /> */}
         <Navbar />
         <Routes>
           <Route exact path="/" element={<Homepage />} />

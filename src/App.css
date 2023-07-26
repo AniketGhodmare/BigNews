@@ -34,3 +34,13 @@ a:hover,
 .top-ad {
   height: 90px;
 }
+
+.pointer {
+  cursor: pointer;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
